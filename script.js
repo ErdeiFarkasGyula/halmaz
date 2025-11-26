@@ -32,3 +32,8 @@ function kulonbseg(halmaz1, halmaz2) {
     }
     return eredmeny;
 }
+
+console.log("Halmaz beolvasás:", halmazBeolvas(1, 2, 3, 4, 5));
+console.log("Egyesítés:", egyesites(new Set([1, 2, 3]), new Set([3, 4, 5])));
+console.log("Metszet:", metszet(new Set([1, 2, 3]), new Set([3, 4, 5])));
+console.log("Különbség:", kulonbseg(new Set([1, 2, 3]), new Set([3, 4, 5])));
