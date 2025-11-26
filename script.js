@@ -22,3 +22,13 @@ function metszet(halmaz1, halmaz2) {
     }
     return eredmeny;
 }
+
+function kulonbseg(halmaz1, halmaz2) {
+    let eredmeny = new Set();
+    for (let elem of halmaz1) {
+        if (!halmaz2.has(elem)) {
+            eredmeny.add(elem);
+        }
+    }
+    return eredmeny;
+}
