@@ -1,0 +1,37 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 80%;
+    box-sizing: border-box;
+}
+input[type="text"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+}
+button {
+    margin-top: 25px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 80%;
+    box-sizing: border-box;
+}
