@@ -73,8 +73,9 @@ gomb.addEventListener("click", () => {
 
 function halmazBeolvas(bemenetek) {
     let halmaz = new Set();
-    // Vesszővel elválasztott elemek beolvasása
-    bemenetek.split(',').map(e => e.trim()).filter(e => e).forEach(e => halmaz.add(e));
+    for (let i = 0; i < arguments.length; i++) {
+        halmaz.add(arguments[i]);
+    }
     return halmaz;
 }
 
